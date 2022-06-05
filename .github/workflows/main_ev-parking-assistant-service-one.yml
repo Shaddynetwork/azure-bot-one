@@ -52,6 +52,5 @@ jobs:
         with:
           app-name: 'ev-parking-assistant-service-one'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_051AE1EC66964C0B8851FB1C643AB558 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_3BB77DB4828946CA9A0EC320A02991A8 }}
           package: .
-
