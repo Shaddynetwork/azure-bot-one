@@ -20,7 +20,8 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: '14.x'
-
+pool:
+  vmImage: 'ubuntu-latest' # examples of other options: 'macOS-10.15', 'windows-latest'
       - name: npm install, build, and test
         run: |
           npm install
