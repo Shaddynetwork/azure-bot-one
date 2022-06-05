@@ -54,5 +54,4 @@ jobs:
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_051AE1EC66964C0B8851FB1C643AB558 }}
           package: .
-pool:
-  vmImage: 'ubuntu-latest' # examples of other options: 'macOS-10.15', 'windows-latest'
+
